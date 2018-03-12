@@ -11,11 +11,12 @@ if name_hash.empty?
   if empty_variable == nil 
     empty_variable = value
     empty_key = key
+    return empty_key
   elsif  empty_variable < value
     empty_variable = value
     empty_key = key
-  end
-  empty_key
+    return empty_key
+end
 end
 end
 end
