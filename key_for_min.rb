@@ -8,8 +8,10 @@ def key_for_min_value(name_hash)
     nil 
   else
   name_hash.collect do |key, value|
-  empty_variable = value
-  array << empty_variable
+  if empty_variable > value
+  key
+  elsif empty_variable < value 
+  name_hash
   
   end
 end
