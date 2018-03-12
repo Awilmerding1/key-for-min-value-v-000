@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
     return key
   elsif  empty_variable < value
     empty_variable = value
-    key
+    empty_key
   end
 end
 end
