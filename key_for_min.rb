@@ -14,7 +14,6 @@ if name_hash.empty?
   elsif  empty_variable < value
     empty_variable = value
     empty_key = key
-    empty_key
   end
   empty_key
 end
