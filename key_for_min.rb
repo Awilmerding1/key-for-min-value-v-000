@@ -11,8 +11,8 @@ def key_for_min_value(name_hash)
   if empty_variable > value 
     empty_variable = value 
     empty_key = key
-    
   end
 end
+empty_key
 end
 end
