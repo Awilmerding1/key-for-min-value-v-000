@@ -8,7 +8,8 @@ def key_for_min_value(name_hash)
   else
   name_hash.collect do |key, value|
    array << value 
-   array.do 
+   array.each do |compare|
+     
   end
 end
 end
