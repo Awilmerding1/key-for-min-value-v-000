@@ -3,8 +3,7 @@
 
 def key_for_min_value(name_hash)
   stored_key = ""
-  min_value = 0 
-  max_value = ""
+ array = []
   if name_hash = {}
     nil 
   else
