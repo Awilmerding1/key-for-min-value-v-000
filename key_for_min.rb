@@ -8,6 +8,8 @@ def key_for_min_value(name_hash)
   else
   name_hash.collect do |key, value|
   array << value
+  array.each do |number|
+    
 end
 end
 end
