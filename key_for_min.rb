@@ -8,7 +8,8 @@ if name_hash.empty?
    nil 
   else
   name_hash.collect do |key, value|
-  if empty_variable == nil || 
+  if empty_variable == nil || value < empty_variable
+    
 end
    return empty_key
 end
