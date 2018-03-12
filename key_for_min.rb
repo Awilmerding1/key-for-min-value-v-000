@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
   name_hash.collect do |key, value|
   array << value
   array.each do |number|
-    
+    return 
 end
 end
 end
