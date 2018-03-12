@@ -11,7 +11,6 @@ if name_hash.empty?
   if empty_variable == nil 
     empty_variable = value
     empty_key = key
-    empty_key
   elsif  empty_variable < value
     empty_variable = value
     empty_key = key
