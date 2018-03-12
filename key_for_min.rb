@@ -15,7 +15,7 @@ if name_hash.empty?
     empty_variable = value
     empty_key = key
 end
-  return empty_key
+   empty_key
 end
 end
 end
