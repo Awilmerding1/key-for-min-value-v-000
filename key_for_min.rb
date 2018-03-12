@@ -3,7 +3,6 @@
 
 def key_for_min_value(name_hash)
  empty_variable = nil
- array = []
   if name_hash.empty?
     nil 
   else
