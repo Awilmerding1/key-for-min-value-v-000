@@ -10,7 +10,8 @@ def key_for_min_value(name_hash)
   name_hash.collect do |key, value|
   if empty_variable == nil 
     empty_variable = value
-    return key
+    empty_key = key
+    return empty_key
   elsif  empty_variable < value
     empty_variable = value
     empty_key = key
